@@ -90,7 +90,7 @@ li {
 a {
     color: #08906f;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: bold
 }
 a:hover,
 a:focus {
@@ -442,7 +442,7 @@ h6:hover .hash-link {
     color: #fafafa
 }
 .buttons-unit .button:active {
-    background: #c5695c
+    background: #078063
 }
 .buttons-unit.downloads {
     margin: 30px 0
