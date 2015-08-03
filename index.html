@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">  
-  <title>A Distributed Resource Manager | Majordodo</title>  
+  <meta charset="utf-8">
+  <title>A Distributed Resource Manager | Majordodo</title>
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-
-  <div class="container">
+  
+<div class="container">
+  
 
     <div class="nav-main">
       <div class="wrap">
@@ -15,18 +16,20 @@
           Majordodo
         </a>
         <ul class="nav-site nav-site-internal">
-          <li><li><a href="https://github.com/majordodo/Majordodo/wiki">Docs</a></li>          
-          <li><a href="downloads.html">Download</a></li>          
+          <li><a href="https://github.com/majordodo/Majordodo/wiki">Docs</a></li>
+          <li><a href="https://github.com/majordodo/Majordodo">Support</a></li>
+          <li><a href="https://github.com/majordodo/Majordodo">Download</a></li>
+          <li><a href="https://github.com/majordodo/Majordodo">List</a></li>
         </ul>
-
+        
         <ul class="nav-site nav-site-external">
-          <li><a href="https://github.com/majordodo/majordodo">GitHub</a>          
-         
+          <li><a href="https://github.com/majordodo/majordodo">GitHub</a></li>
+          <li><a href="https://github.com/majordodo/majordodo">Jira</a></li>
         </ul>
       </div>
     </div>
 
-    
+
     <div class="hero">
       <div class="wrap">
         <div class="text"><strong>Majordodo</strong></div>
@@ -35,69 +38,72 @@
         </div>
 
         <div class="buttons-unit">
-          <a href="gettingstarted.html" class="button">Get Started</a>
-          <a href="downloads.html" class="button">Download Majorodo</a>
+          <a href="https://github.com/majordodo/Majordodo" class="button">Get Started</a>
+          <a href="https://github.com/majordodo/Majordodo" class="button">Download Majorodo</a>
         </div>
       </div>
     </div>
-    
 
-    <section class="content wrap">
-  <p><section class="light home-section">
+
+<section class="content wrap"><p>
+
+
+<section class="home-section">
+  <div id="examples">
+    <div class="example">
+      <h3>What is Majordodo?</h3>
+      <h4>A distributed resource manager</h4>
+      <p>
+          Majordodo is a replicated service to build complex multi-tenant computing grids.
+          You can view it as a <i>distributed threadpool</i> where tasks are submitted by users and a network of brokers schedules execution on a large set of machines, caring about failures, recovery and priority-based resources assignment.
+          Tasks are implemented (in version 1.0) in Java and can be submitted and monitored using a simple HTTP REST JSON API.
+      </p>
+    </div>
+  </div>  
+</section>
+
+
+<hr class="home-divider" />
+
+
+<section class="light home-section">
   <div class="marketing-row">
     <div class="marketing-col">
       <h3>Multi-Tenancy</h3>
       <p>
-        Majordodo manages resources for each tenant and guarantees resource access isolation and fair scheduling. User's priority to access resources is dynamic and can be modified runtime for each task, even for tasks which have already been submitted to the scheduler.      </p>
+        Majordodo manages resources for each tenant and guarantees resource access isolation and fair scheduling. User's execution priority is dynamic and can be modified at runtime for each and every task, even for the ones that have already been submitted to the scheduler.
+      </p>
     </div>
     <div class="marketing-col">
-      <h3>No single point of failure</h3>
+      <h3>Resiliency/h3>
       <p>
-        Majordodo leverages <a href='http://zookeeper.apache.org'>Apache Zookeeper</a> and <a href='http://bookkeeper.apache.org'>Apache Bookkeeper</a> to buiild a fully reaplicated, shared-nothing, broker architecture without any single point of failure. Workers can be run on comodity-hardware, virtual machines or dynamic provisioned cloud reousrces which can fail at any time without service interruption. 
+        Majordodo leverages <a href='http://zookeeper.apache.org'>Apache Zookeeper</a> and <a href='http://bookkeeper.apache.org'>Apache Bookkeeper</a> to build a fully reaplicated, shared-nothing, broker architecture without any single point of failure. Workers can be run on comodity-hardware, virtual machines or dynamic provisioned cloud resources which can fail at any time without service interruption. 
       </p>
     </div>
     <div class="marketing-col">
       <h3>Scalability</h3>
       <p>
-        Majordodo is designed to manage clusters of thousands ot hosts. It is simple to add and remove hosts and resources with dynamic reconfiguration and adaptative tasks scheduling
+        Majordodo is designed to manage tasks for thousands of hosts. It is simple to add and remove hosts and resources with dynamic reconfiguration and adaptative tasks scheduling.
       </p>
     </div>
   </div>
 </section>
-<hr class="home-divider" />
-<section class="home-section">
-  <div id="examples">
-    <div class="example">
-      <h3>Under construction!</h3>
-      <p>
-        As you can seen this site is heavily under construction!
-      </p>
-      
-      <h3>What is Majordodo?</h3>
-      <h4>A distributed resource manager</h4>
-      <p>
-          Majordodo is a platform to build complex multi-tenant distributed computing grids. 
-          You can think about it as a <i>distributed threadpool</i>, to which tasks are submitted by users and a network of brokers schedules execcution on a large set of machines, caring about failures, recovery and priority-based resources assignment.
-          Tasks are implemented (in version 1.0) in Java and can be submitted and monitored using a simple HTTP REST JSON API
-      </p>
-      
-      
-    </div>
-    
-  </div>  
-</section>
 
 </section>
+
 
     <footer class="wrap">
-      <div class="left">        
-        <a href="contactus.html">Contact us</a>
+      <div class="left">
+        &copy; 2015 <a href="http://www.magnews.com">Diennea Srl</a>, released under Apache 2 License.
+        
       </div>
-      <div class="right">        
-        Licensed under Apache 2 Licence.
+      <div class="right">
+        <a href="http://www.magnews.com/contacts/contact-us/">Contact us</a>
       </div>
     </footer>
-  </div>
-  
+
+
+</div>
+
 </body>
 </html>
