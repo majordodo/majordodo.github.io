@@ -89,7 +89,8 @@ li {
 }
 a {
     color: #08906f;
-    text-decoration: none
+    text-decoration: none;
+    font-weight: bold;
 }
 a:hover,
 a:focus {
