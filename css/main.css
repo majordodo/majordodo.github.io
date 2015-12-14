@@ -399,7 +399,8 @@ h6:hover .hash-link {
     font-size: 24px;
     line-height: 50px;
     height: 50px;
-    display: inline-block
+    display: inline-block;
+    float: right
 }
 .nav-main .nav-logo {
     vertical-align: middle;
