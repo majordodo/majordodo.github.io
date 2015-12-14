@@ -366,9 +366,12 @@ h6:hover .hash-link {
     text-decoration: none
 }
 .nav-main .nav-site-left {
+    display: inline-block;
+    float: left;
     margin: 0 0 0 20px
 }
 .nav-main .nav-site-right {
+    display: inline-block;
     float: right;
     margin: 0
 }
