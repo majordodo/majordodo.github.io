@@ -400,7 +400,7 @@ h6:hover .hash-link {
     line-height: 50px;
     height: 50px;
     display: inline-block;
-    float: right
+    float: left
 }
 .nav-main .nav-logo {
     vertical-align: middle;
