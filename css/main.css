@@ -936,3 +936,15 @@ div[data-twttr-id] iframe {
 .three-column>ul:first-child {
     margin-left: 20px
 }
+.changelog h3 {
+    color: #2d2d2d;
+    font-size: 24px;
+    font-weight: normal;
+    text-transform: uppercase
+}
+.releaserow h4 {
+    margin-left: 20px
+}
+.releaserow p {
+    margin-left: 50px
+}
